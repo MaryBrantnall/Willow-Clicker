@@ -1,0 +1,21 @@
+#root {
+  background-color: rgb(215, 215, 151);
+  color: darkorchid;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App-logo:hover {
+  filter: drop-shadow(0 0 2em #d42efdaa);
+  will-change: filter;
+  transition: filter 300ms
+}
+
+.rewards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(204, 255, 0);
+}
